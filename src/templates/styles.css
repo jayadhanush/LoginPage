@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300,400,500,600,700,800,900&display=swap);
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins", sans-serif;
+}
+
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:url('scenary.jpeg') no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}
+
+.wrapper{
+    width:450px;
+    background:transparent;
+    backdrop-filter: blur(25px);
+    color:white;
+    border-radius:12px;
+    box-shadow: 0 0 15px rgba(192, 122, 167, 0.667);
+    padding: 20px 30px;
+}
+
+.wrapper h1{
+    font-size:36px;
+    text-align:center;
+}
+.wrapper .input-box{
+    position:relative;  
+    width:100%;
+    height:50px;
+    
+    margin:30px 0;
+}
+.input-box input{
+    width:100%;
+    height:100%;
+    border:none;
+    border:2px grey solid;
+    border-radius:40px;
+    background:transparent;
+    padding: 20px 45px 20px 20px;     
+    font-size: 16px;                                        
+}
+
+.input-box i{
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+}
+.wrapper .btn{
+    width:100%;
+    height:50px;
+    background: whitesmoke;
+    font-size:16px;
+    font-weight: 500;
+    border:none;
+    border-radius:40px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+
+.wrapper .btn:hover{
+    text-decoration: underline;
+}
+
+.wrapper .register-link{
+    display:flex;
+    text-align:center;
+    justify-content :center;
+    margin:25px 0;
+}
+.wrapper .register-link a{
+    font-weight:600;
+    text-decoration:none;
+    
+}
+.wrapper .register-link p{
+    font-weight:600;
+    text-decoration:none;
+    
+}
+
+.wrapper .register-link a:hover{
+    color:darkblue;
+    text-decoration:underline;
+    margin-left:5px;
+}
